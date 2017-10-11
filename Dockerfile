@@ -1,4 +1,4 @@
-FROM hypriot/rpi-alpine-scratch:3.4
+FROM hypriot/rpi-alpine-scratch:v3.4
 
 RUN adduser -D -S -h /home/gitlab-runner gitlab-runner
 
